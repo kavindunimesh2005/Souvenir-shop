@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="100%" height="100%">
+  <defs>
+    <radialGradient id="studioBg" cx="50%" cy="40%" r="70%">
+      <stop offset="0%" stop-color="#FFFDF9"/>
+      <stop offset="65%" stop-color="#F4ECE0"/>
+      <stop offset="100%" stop-color="#E4D4BE"/>
+    </radialGradient>
+    <linearGradient id="canvasBag" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FBF7EE"/>
+      <stop offset="55%" stop-color="#F3E9D7"/>
+      <stop offset="100%" stop-color="#E5D5BC"/>
+    </linearGradient>
+    <linearGradient id="strapGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#136F50"/>
+      <stop offset="50%" stop-color="#1D8362"/>
+      <stop offset="100%" stop-color="#0F4735"/>
+    </linearGradient>
+    <filter id="bagShadow" x="-20%" y="-15%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="26" stdDeviation="20" flood-color="#1A1917" flood-opacity="0.24"/>
+      <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#1A1917" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="800" fill="url(#studioBg)"/>
+
+  <!-- Soft Botanical Leaf Shadow Hint -->
+  <ellipse cx="400" cy="730" rx="210" ry="20" fill="#1A1917" opacity="0.14"/>
+
+  <g filter="url(#bagShadow)">
+    <!-- Woven Cotton Shoulder Straps -->
+    <path d="M285,265 C285,75 315,65 400,65 C485,65 515,75 515,265" fill="none" stroke="url(#strapGrad)" stroke-width="32" stroke-linecap="round"/>
+    <path d="M285,265 C285,82 315,72 400,72 C485,72 515,82 515,265" fill="none" stroke="#F4B41A" stroke-width="3" stroke-dasharray="8 6"/>
+
+    <!-- Main Heavyweight Canvas Tote Body -->
+    <path d="M185,250 L615,250 L592,705 C590,722 576,734 558,734 L242,734 C224,734 210,722 208,705 Z" fill="url(#canvasBag)" stroke="#DCCBB2" stroke-width="3"/>
+
+    <!-- Top Stitching Seam -->
+    <line x1="192" y1="274" x2="608" y2="274" stroke="#C8B191" stroke-width="2.5" stroke-dasharray="7 5"/>
+
+    <!-- Colorful Sri Lankan Island Art Print on Tote -->
+    <g transform="translate(400, 495)">
+      <!-- Sun & Arch Backdrop -->
+      <path d="M-155,80 L-155,-65 C-155,-150 -85,-200 0,-200 C85,-200 155,-150 155,-65 L155,80 Z" fill="#0E6BA8"/>
+      <circle cx="0" cy="-85" r="78" fill="#F4B41A"/>
+      <circle cx="0" cy="-85" r="58" fill="#E85D3F"/>
+
+      <!-- Ocean Waves & Tropical Coast -->
+      <path d="M-155,20 Q-115,5 -75,20 T5,20 T85,20 T155,20 L155,80 L-155,80 Z" fill="#136F50"/>
+      <path d="M-155,48 Q-115,35 -75,48 T5,48 T85,48 T155,48 L155,80 L-155,80 Z" fill="#64B3A4"/>
+
+      <!-- Tropical Palm Trees -->
+      <path d="M-125,35 Q-110,-45 -85,-110" fill="none" stroke="#1A1917" stroke-width="7" stroke-linecap="round"/>
+      <path d="M-85,-110 Q-130,-125 -148,-95 M-85,-110 Q-115,-148 -70,-152 M-85,-110 Q-50,-140 -38,-105" fill="none" stroke="#136F50" stroke-width="8" stroke-linecap="round"/>
+
+      <path d="M125,35 Q110,-45 85,-110" fill="none" stroke="#1A1917" stroke-width="7" stroke-linecap="round"/>
+      <path d="M85,-110 Q130,-125 148,-95 M85,-110 Q115,-148 70,-152 M85,-110 Q50,-140 38,-105" fill="none" stroke="#136F50" stroke-width="8" stroke-linecap="round"/>
+
+      <!-- Ornate Kandyan Elephant Illustration in Center -->
+      <g transform="translate(0, -18) scale(0.55)">
+        <path d="M-110,15 C-110,-85 95,-95 135,-10 C155,45 140,105 125,125 L85,125 L80,60 L30,60 L25,125 L-15,125 L-15,55 L-60,55 L-65,125 L-100,125 Z" fill="#1A1917" stroke="#FEF08A" stroke-width="5"/>
+        <path d="M-90,-50 C-135,-50 -165,-10 -168,38 C-170,75 -150,95 -130,85 C-115,78 -118,55 -132,55 C-140,55 -140,40 -132,20 C-125,0 -105,5 -90,18 Z" fill="#1A1917" stroke="#FEF08A" stroke-width="5"/>
+        <rect x="-28" y="-60" width="110" height="95" rx="10" fill="#E85D3F" stroke="#FEF08A" stroke-width="6"/>
+        <circle cx="27" cy="-12" r="26" fill="#F4B41A"/>
+        <circle cx="27" cy="-12" r="11" fill="#0E6BA8"/>
+      </g>
+
+      <!-- Geometric Batik Border Strip -->
+      <rect x="-155" y="78" width="310" height="26" fill="#E85D3F"/>
+      <path d="M-145,91 L-130,81 L-115,91 L-100,81 L-85,91 L-70,81 L-55,91 L-40,81 L-25,91 L-10,81 L5,91 L20,81 L35,91 L50,81 L65,91 L80,81 L95,91 L110,81 L125,91 L140,81" fill="none" stroke="#FEF08A" stroke-width="3.5"/>
+
+      <!-- Typography Below Artwork -->
+      <text x="0" y="142" text-anchor="middle" fill="#1A1917" font-family="Georgia, serif" font-weight="bold" font-size="28" letter-spacing="7">SRI LANKA</text>
+      <text x="0" y="168" text-anchor="middle" fill="#E85D3F" font-family="sans-serif" font-weight="bold" font-size="13" letter-spacing="4">PARADISE ISLAND • CEYLON</text>
+    </g>
+  </g>
+</svg>
+

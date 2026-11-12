@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="100%" height="100%">
+  <defs>
+    <radialGradient id="bgStone" cx="50%" cy="45%" r="65%">
+      <stop offset="0%" stop-color="#FBF6ED"/>
+      <stop offset="60%" stop-color="#EFE5D4"/>
+      <stop offset="100%" stop-color="#DFCBB0"/>
+    </radialGradient>
+    <linearGradient id="flameGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#B91C1C"/>
+      <stop offset="45%" stop-color="#E85D3F"/>
+      <stop offset="85%" stop-color="#F4B41A"/>
+      <stop offset="100%" stop-color="#FEF08A"/>
+    </linearGradient>
+    <linearGradient id="goldTrim" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FDE047"/>
+      <stop offset="50%" stop-color="#F4B41A"/>
+      <stop offset="100%" stop-color="#B45309"/>
+    </linearGradient>
+    <filter id="dropShadow" x="-15%" y="-15%" width="130%" height="135%">
+      <feDropShadow dx="0" dy="22" stdDeviation="18" flood-color="#1A1917" flood-opacity="0.28"/>
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#1A1917" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <!-- Warm Travertine Slab Background -->
+  <rect width="800" height="800" fill="url(#bgStone)"/>
+  <g opacity="0.18" fill="#8C7355">
+    <circle cx="140" cy="180" r="3"/><circle cx="670" cy="210" r="4"/><circle cx="220" cy="680" r="3.5"/>
+    <circle cx="620" cy="640" r="2.5"/><circle cx="110" cy="520" r="4"/><circle cx="710" cy="460" r="3"/>
+  </g>
+  <rect x="65" y="65" width="670" height="670" rx="36" fill="none" stroke="#C8B191" stroke-width="2" opacity="0.5"/>
+
+  <!-- Magnet Backing Disc Hint -->
+  <ellipse cx="400" cy="645" rx="95" ry="22" fill="#2A2927" opacity="0.35"/>
+
+  <!-- Kandyan Fire Dancer Wooden Relief Magnet -->
+  <g filter="url(#dropShadow)" transform="translate(400, 405)">
+    <!-- Carved Wooden Base Plaque -->
+    <path d="M-190,180 C-230,60 -220,-120 -130,-230 C-60,-300 60,-300 130,-230 C220,-120 230,60 190,180 C140,245 -140,245 -190,180 Z" fill="#2B1810" stroke="url(#goldTrim)" stroke-width="8"/>
+
+    <!-- Radial Fire Aura Crown (Gini Sisila) -->
+    <g>
+      <path d="M0,-285 L22,-215 L55,-275 L58,-200 L105,-250 L92,-175 L150,-215 L120,-145 L182,-165 L142,-105 L200,-110 L152,-60 L202,-45 L150,-10 L190,15 L140,38 L0,0 Z" fill="url(#flameGrad)" stroke="#2B1810" stroke-width="3"/>
+      <path d="M0,-285 L-22,-215 L-55,-275 L-58,-200 L-105,-250 L-92,-175 L-150,-215 L-120,-145 L-182,-165 L-142,-105 L-200,-110 L-152,-60 L-202,-45 L-150,-10 L-190,15 L-140,38 L0,0 Z" fill="url(#flameGrad)" stroke="#2B1810" stroke-width="3"/>
+    </g>
+
+    <!-- Traditional Ves Headpiece (Sikha Bandanaya) -->
+    <path d="M-95,-95 L0,-235 L95,-95 Z" fill="url(#goldTrim)" stroke="#1A1917" stroke-width="4"/>
+    <path d="M-70,-100 L0,-200 L70,-100 Z" fill="#B91C1C"/>
+    <circle cx="0" cy="-145" r="18" fill="#136F50" stroke="url(#goldTrim)" stroke-width="4"/>
+    <circle cx="-42" cy="-120" r="11" fill="#F4B41A"/>
+    <circle cx="42" cy="-120" r="11" fill="#F4B41A"/>
+
+    <!-- Ornate Ear Flaps (Thoduwa) -->
+    <circle cx="-112" cy="-35" r="38" fill="url(#goldTrim)" stroke="#1A1917" stroke-width="4"/>
+    <circle cx="-112" cy="-35" r="22" fill="#E85D3F"/>
+    <circle cx="112" cy="-35" r="38" fill="url(#goldTrim)" stroke="#1A1917" stroke-width="4"/>
+    <circle cx="112" cy="-35" r="22" fill="#E85D3F"/>
+
+    <!-- Dancer Face & Traditional Makeup -->
+    <path d="M-75,-90 C-82,-20 -58,40 0,48 C58,40 82,-20 75,-90 Z" fill="#D97736" stroke="#1A1917" stroke-width="4"/>
+    <!-- Decorative Brow Arch -->
+    <path d="M-62,-62 Q-30,-88 0,-64 Q30,-88 62,-62" fill="none" stroke="#FEF08A" stroke-width="6" stroke-linecap="round"/>
+    <!-- Expressive Eyes -->
+    <ellipse cx="-32" cy="-42" rx="18" ry="11" fill="#FFFFFF" stroke="#1A1917" stroke-width="3"/>
+    <circle cx="-32" cy="-42" r="7" fill="#1A1917"/>
+    <ellipse cx="32" cy="-42" rx="18" ry="11" fill="#FFFFFF" stroke="#1A1917" stroke-width="3"/>
+    <circle cx="32" cy="-42" r="7" fill="#1A1917"/>
+    <!-- Mustache & Smile -->
+    <path d="M-45,2 Q-20,-12 0,0 Q20,-12 45,2" fill="none" stroke="#1A1917" stroke-width="6" stroke-linecap="round"/>
+    <path d="M-22,16 Q0,28 22,16" fill="none" stroke="#FEF08A" stroke-width="4" stroke-linecap="round"/>
+
+    <!-- Beaded Chest Ornament (Avulhara) -->
+    <path d="M-115,45 C-90,145 90,145 115,45 L85,165 L-85,165 Z" fill="#B91C1C" stroke="url(#goldTrim)" stroke-width="5"/>
+    <path d="M-75,52 C-50,115 50,115 75,52" fill="none" stroke="url(#goldTrim)" stroke-width="8" stroke-dasharray="10,6"/>
+    <path d="M-95,70 C-65,145 65,145 95,70" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-dasharray="6,8"/>
+    <path d="M-50,48 C-30,85 30,85 50,48" fill="none" stroke="#64B3A4" stroke-width="7"/>
+
+    <!-- Twin Fire Torches (Pandama) -->
+    <g transform="translate(-145, 55) rotate(-18)">
+      <rect x="-8" y="0" width="16" height="85" rx="6" fill="#78350F" stroke="url(#goldTrim)" stroke-width="3"/>
+      <path d="M-28,0 C-35,-45 -8,-65 0,-95 C8,-65 35,-45 28,0 Z" fill="url(#flameGrad)"/>
+      <path d="M-14,-5 C-18,-30 0,-48 0,-68 C0,-48 18,-30 14,-5 Z" fill="#FEF08A"/>
+    </g>
+    <g transform="translate(145, 55) rotate(18)">
+      <rect x="-8" y="0" width="16" height="85" rx="6" fill="#78350F" stroke="url(#goldTrim)" stroke-width="3"/>
+      <path d="M-28,0 C-35,-45 -8,-65 0,-95 C8,-65 35,-45 28,0 Z" fill="url(#flameGrad)"/>
+      <path d="M-14,-5 C-18,-30 0,-48 0,-68 C0,-48 18,-30 14,-5 Z" fill="#FEF08A"/>
+    </g>
+
+    <!-- Carved Bottom Banner "SRI LANKA" -->
+    <path d="M-145,155 L145,155 L130,202 L-130,202 Z" fill="#1A1917" stroke="url(#goldTrim)" stroke-width="4"/>
+    <text x="0" y="187" text-anchor="middle" fill="#FDE047" font-family="Georgia, serif" font-weight="bold" font-size="26" letter-spacing="6">SRI LANKA</text>
+  </g>
+</svg>
+

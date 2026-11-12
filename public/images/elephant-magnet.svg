@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="100%" height="100%">
+  <defs>
+    <radialGradient id="stoneBg" cx="50%" cy="45%" r="65%">
+      <stop offset="0%" stop-color="#FDFBF7"/>
+      <stop offset="65%" stop-color="#F2E9DC"/>
+      <stop offset="100%" stop-color="#E2D3BE"/>
+    </radialGradient>
+    <linearGradient id="royalCrimson" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E85D3F"/>
+      <stop offset="50%" stop-color="#C83E2B"/>
+      <stop offset="100%" stop-color="#8F1D14"/>
+    </linearGradient>
+    <linearGradient id="kandyanGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FEF08A"/>
+      <stop offset="50%" stop-color="#F4B41A"/>
+      <stop offset="100%" stop-color="#B45309"/>
+    </linearGradient>
+    <filter id="magnetShadow" x="-15%" y="-15%" width="135%" height="135%">
+      <feDropShadow dx="0" dy="20" stdDeviation="16" flood-color="#1A1917" flood-opacity="0.26"/>
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#1A1917" flood-opacity="0.16"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="800" fill="url(#stoneBg)"/>
+  <circle cx="400" cy="400" r="320" fill="none" stroke="#DCCBB2" stroke-width="2" stroke-dasharray="8 8"/>
+
+  <!-- Magnet Shadow & Die-Cut Wooden Base -->
+  <g filter="url(#magnetShadow)" transform="translate(400, 405)">
+    <!-- Carved Wooden Contour Base -->
+    <path d="M-235,35 C-255,-75 -180,-195 -40,-205 C85,-215 190,-155 225,-50 C255,35 230,155 180,195 L-185,195 C-225,165 -225,95 -235,35 Z" fill="#3B2314" stroke="url(#kandyanGold)" stroke-width="7"/>
+
+    <!-- Elephant Body & Legs -->
+    <path d="M-145,25 C-145,-105 125,-125 175,-10 C205,55 185,135 165,160 L115,160 L110,75 L45,75 L40,160 L-15,160 L-15,70 L-75,70 L-80,160 L-130,160 Z" fill="#1F2421" stroke="url(#kandyanGold)" stroke-width="4"/>
+
+    <!-- Elephant Head & Raised Trunk -->
+    <path d="M-120,-65 C-175,-65 -210,-15 -215,45 C-220,95 -195,120 -170,110 C-150,102 -152,75 -170,75 C-180,75 -182,55 -175,30 C-165,5 -140,10 -120,25 Z" fill="#1F2421" stroke="url(#kandyanGold)" stroke-width="4"/>
+
+    <!-- Royal Ear with Lotus Pattern -->
+    <path d="M-115,-85 C-55,-95 -45,-5 -105,15 C-135,5 -135,-65 -115,-85 Z" fill="#0E6BA8" stroke="url(#kandyanGold)" stroke-width="5"/>
+    <circle cx="-92" cy="-38" r="18" fill="#E85D3F" stroke="#FEF08A" stroke-width="3"/>
+
+    <!-- Ceremonial Head Cloth (Netti Mala) -->
+    <path d="M-195,-5 C-185,-70 -145,-105 -105,-90 C-115,-35 -145,5 -195,-5 Z" fill="url(#royalCrimson)" stroke="url(#kandyanGold)" stroke-width="5"/>
+    <circle cx="-152" cy="-52" r="10" fill="#FEF08A"/>
+
+    <!-- Curved Ivory Tusks -->
+    <path d="M-175,28 C-215,38 -235,18 -242,-5 C-220,8 -195,15 -168,12 Z" fill="#FFFBEB" stroke="#B45309" stroke-width="2.5"/>
+
+    <!-- Esala Perahera Ornamental Caparison Blanket -->
+    <path d="M-55,-105 C35,-120 125,-95 148,-15 L132,85 L-52,85 Z" fill="url(#royalCrimson)" stroke="url(#kandyanGold)" stroke-width="6"/>
+    <rect x="-32" y="-78" width="142" height="132" rx="12" fill="#136F50" stroke="url(#kandyanGold)" stroke-width="4"/>
+    <!-- Traditional Kandyan Lotus Mandala inside Blanket -->
+    <circle cx="39" cy="-12" r="42" fill="#0E6BA8" stroke="url(#kandyanGold)" stroke-width="4"/>
+    <circle cx="39" cy="-12" r="22" fill="#E85D3F" stroke="#FEF08A" stroke-width="3"/>
+    <circle cx="39" cy="-12" r="8" fill="#FEF08A"/>
+    <!-- Decorative Gold & Pearl Dots -->
+    <g fill="#FEF08A">
+      <circle cx="-15" cy="-60" r="5"/><circle cx="93" cy="-60" r="5"/>
+      <circle cx="-15" cy="36" r="5"/><circle cx="93" cy="36" r="5"/>
+      <circle cx="-105" cy="145" r="5"/><circle cx="-90" cy="145" r="5"/>
+      <circle cx="10" cy="145" r="5"/><circle cx="25" cy="145" r="5"/>
+      <circle cx="132" cy="145" r="5"/><circle cx="148" cy="145" r="5"/>
+    </g>
+
+    <!-- Golden Casket (Karanduwa) on Back -->
+    <path d="M-5,-108 L85,-108 L68,-155 L12,-155 Z" fill="url(#kandyanGold)" stroke="#3B2314" stroke-width="3"/>
+    <path d="M12,-155 C12,-190 68,-190 68,-155 Z" fill="url(#kandyanGold)" stroke="#3B2314" stroke-width="3"/>
+    <line x1="40" y1="-182" x2="40" y2="-202" stroke="url(#kandyanGold)" stroke-width="6" stroke-linecap="round"/>
+
+    <!-- Bottom Nameplate Banner "CEYLON ELEPHANT" -->
+    <rect x="-175" y="152" width="350" height="44" rx="12" fill="#1A1917" stroke="url(#kandyanGold)" stroke-width="4"/>
+    <text x="0" y="182" text-anchor="middle" fill="#FEF08A" font-family="Georgia, serif" font-weight="bold" font-size="23" letter-spacing="5">SRI LANKA • CEYLON</text>
+  </g>
+</svg>
+
